@@ -1,0 +1,8 @@
+* C:\Users\iamne\Imperial.asc
+V1 VIN 0 SINE(0 2 1000)
+R1 0 2 1k
+L1 1 2 1m
+C1 1 VIN 100m
+.tran 0 0.001 0 0.000001
+.backanno
+.end

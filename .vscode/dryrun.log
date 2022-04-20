@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/c/Users/iamne/Desktop/EIE/Year1/40006_Electronics_Design_Project_1/new'
+g++ -c src/matrix.cpp
+g++ -c src/matrix_update.cpp
+g++ -c src/matrix_solver.cpp
+g++ -c src/matrix_current.cpp
+g++ -c src/circuit.cpp
+g++ -c src/simulator.cpp
+g++ -o simulator matrix.o matrix_update.o matrix_solver.o matrix_current.o circuit.o simulator.o -O2 -larmadillo
+make: Leaving directory '/mnt/c/Users/iamne/Desktop/EIE/Year1/40006_Electronics_Design_Project_1/new'
+ 

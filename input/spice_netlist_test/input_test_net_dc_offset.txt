@@ -1,0 +1,9 @@
+* C:\Users\ltspice\R1C1.asc
+R1 N001 N002 1k
+C1 N002 0 100n
+V1 N001 0 SINE(3 0.5 1k)
+.tran 0 0.01 0 0.000001
+.backanno
+.end
+
+

@@ -1,0 +1,8 @@
+* C:\Users\iamne\Desktop\EEE\Year1\40006_Electronics_Design_Project_1\ltspice\R1D1C1.asc
+C1 VOUT 0 100n
+V1 VIN 0 SINE(0 50 100k)
+R1 N001 VIN 1k
+R2 N001 VOUT 5k
+.tran 0 0.001 0 0.00001
+.backanno
+.end

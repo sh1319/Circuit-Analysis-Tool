@@ -1,0 +1,11 @@
+* /Users/yeongkyun/Desktop/testcasesforproject/R__C__I__L_C__R.asc
+V1 N001 0 SINE(0 1 1K)
+R1 N002 N001 500
+C1 N003 N002 10n
+C2 N005 N004 123n
+I1 N003 N004 2m
+L1 N004 N005 40m
+R2 N005 0 2k
+.tran 0 0.01 0 0.001
+.backanno
+.end

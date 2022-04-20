@@ -1,0 +1,46 @@
+coding list
+
+1. DONE
+Github Repository for Group Project
+
+
+2-1. DONE
+input: phasor and time
+function: sine function (amplitude, frequency, phase, dc offset)
+output: value
+
+implementation:
+phasor.cpp
+float phasor_at_t(complex phasor, time t);
+
+2-2. DONE
+AC voltage input (amplitude, frequency, dc offset)
+to phasor for calculation
+
+2-3 DONE
+Current Source 
+
+3. DONE
+finding which library to use for matrix calculation
+need to find inverse,
+matrix multiplcation,
+etc.
+
+4.
+using our netlist store information in some way for now (data structure later~)
+it is important to store information as conductance matrix and voltage matrix and current matrix.
+given N nodes: conductance matrix = [N x N], voltage matrix: [N x 1], current matrix: [N x 1]
+
+before these matrices are used for calculation, some modification to matrices must be done:
+implement a function: conductance of V_source simplification -> 말로 설명하는게 편할듯 -> 맨 첨부터 이게 가능하면 젤 efficient
+easy for V_sources (GND, other component connection)
+hard for V_sources (one component, the other component connection) -> supernode.
+
+5. DONE
+implement a function: float find_conductance(str left_node, str right_node, component comp)
+
+6. DONE
+add test cases: series RLC, parallel RLC, etc.
+later: supernode with multiple voltage sources and diodes.
+
+7. How to find voltages of different nodes

@@ -1,0 +1,10 @@
+* C:\Users\R1pL1pC1.asc
+V1 N001 0 SINE(0 2 1k)
+R1 N002 N001 1k
+R2 N003 N002 1k
+C1 N002 N003 100n
+L1 N002 N003 100m
+R3 N003 0 1k
+.tran 0 0.001 0 0.000001
+.backanno
+.end

@@ -1,0 +1,8 @@
+* C:\Users\ltspice\R1C1.asc
+R1 VIN VOUT 1k
+C1 VOUT 0 100n
+V1 VIN 0 SINE(0 0.5 1k)
+.tran 0 0.01 0 0.000001
+.backanno
+.end
+

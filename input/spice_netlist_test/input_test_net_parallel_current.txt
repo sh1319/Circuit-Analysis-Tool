@@ -1,0 +1,11 @@
+* C:\Users\iamne\ltspice\RCLR.asc
+V1 N001 0 SINE(0 2 1k)
+R1 N003 N001 5k
+C1 N002 N003 200n
+L1 N001 N002 100m
+R2 N002 N004 10k
+I1 0 N001 SINE(0 2 1k)
+I2 N004 0 0.5
+.tran 0 0.01 0 0.000001
+.backanno
+.end

@@ -1,0 +1,12 @@
+* C:\Users\ltspice\D1R1.asc
+R1 0 N002 1k
+V1 N001 0 SINE(0 5 1000)
+D1 N001 N002 D
+.model D D
+.lib C:\Users\LTspiceXVII\lib\cmp\standard.dio
+.tran 0 0.01 0 0.00001
+.backanno
+.end
+
+
+

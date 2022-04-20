@@ -1,0 +1,10 @@
+* C:\Users\Administrator\Desktop\R__L.asc
+V1 Vin 0 SINE(3 0.5 2K)
+R1 Vout Vin 5k
+L1 Vout 0 70m
+.tran 0 0.01 0 0.000001
+.backanno
+.end
+
+
+

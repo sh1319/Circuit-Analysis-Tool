@@ -1,0 +1,13 @@
+* C:\Users\ltspice\complex_circuit.asc
+V1 N001 0 SINE(0 2 1k)
+R1 N003 N001 5k
+C1 N002 N003 200n
+L1 N001 N002 100m
+R2 N002 0 10k
+.tran 0 0.01 0 0.0000001
+.backanno
+.end
+
+
+
+

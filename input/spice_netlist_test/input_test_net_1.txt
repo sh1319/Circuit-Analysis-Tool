@@ -1,0 +1,8 @@
+* C:\Users\andyh\Documents\LTspiceXVII\RparRC.asc
+C1 N002 N003 1n
+R1 N001 N003 100
+V1 N001 N003 SINE(0 1 1K)
+R2 N001 N002 100
+.tran 0 0.01 0 0.001
+.backanno
+.end

@@ -1,0 +1,8 @@
+* C:\Users\rlcparallel.asc
+C1 0 N001 100n
+R1 0 N001 1k
+L1 0 N001 45m
+I1 N001 0 SINE(0 2 1k)
+.tran 0 0.01 0 0.000001
+.backanno
+.end

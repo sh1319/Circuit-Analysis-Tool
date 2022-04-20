@@ -1,0 +1,11 @@
+* /Users/yeongkyun/Desktop/testcasesforproject/L__V__V_R__R__C.asc
+V1 Vin 0 SINE(0 1 1K)
+L1 N001 Vin 25m
+V2 N002 N001 3
+V3 Vout N002 -2
+R1 Vout N002 5k
+R2 N003 Vout 1k
+C1 N003 0 40n
+.tran 0 0.01 0 0.01
+.backanno
+.end

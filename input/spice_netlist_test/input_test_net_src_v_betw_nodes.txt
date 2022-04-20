@@ -1,0 +1,7 @@
+* C:\Users\iamne\Imperial.asc
+V1 N003 0 SINE(0 0.5 1k)
+R1 N001 N003 1k
+R2 0 N002 1k
+V2 N002 N001 3
+.backanno
+.end

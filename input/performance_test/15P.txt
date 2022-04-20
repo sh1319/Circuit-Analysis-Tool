@@ -1,0 +1,20 @@
+* C:\Users\iamne\Desktop\EEE\Year1\40006_Electronics_Design_Project_1\ltspice\R1C1.asc
+R1 N001 0 1k
+R2 N001 0 1k
+R3 N001 0 1k
+R4 N001 0 1k
+R5 N001 0 1k
+R6 N001 0 1k
+R7 N001 0 1k
+R8 N001 0 1k
+R9 N001 0 1k
+R10 N001 0 1k
+R11 N001 0 1k
+R12 N001 0 1k
+R13 N001 0 1k
+R14 N001 0 1k
+R15 N001 0 1k
+V1 N001 0 SINE(0 0.5 1k)
+.tran 0 0.01 0 0.0001
+.backanno
+.end

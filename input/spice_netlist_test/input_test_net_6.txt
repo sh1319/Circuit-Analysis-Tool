@@ -1,0 +1,9 @@
+* C:\Users\Administrator\Desktop\R_L_C__L.asc
+Vsource Vin 0 SINE(0 1 1K)
+C_node1 Vout Vin 100n
+R_node1 Vout Vin 1k
+L_node1 Vout Vin 45m
+L_node2 0 Vout 7m
+.tran 0 0.001 0 0.00001
+.backanno
+.end
